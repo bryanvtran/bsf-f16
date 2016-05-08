@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
 
-    <title>Bruin Startup Fair</title>
+    <title>StartupFair.la</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -30,6 +30,9 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
@@ -44,15 +47,19 @@
   				<img src="assets/img/logo-white.png">
   			</div>
   			<div class="row">
-  				<h1>BRUIN STARTUP FAIR</h1>
+  				<h1>STARTUPFAIR.LA</h1>
   				<h3>October 25, 2016 | Ackerman Grand Ballroom</h3>
   			</div>
-        <div class="row">
-            <ul class="list-inline social-buttons">
-              <li>
-                <a href="mailto:test@email.com" class="btn btn-default btn-lg"><span class="network-name">Contact Us</span></a>
-              </li>
-            </ul>
+        <div class="row" style="margin-top: 1em;">
+          <form action="//bruinstartupfair.us13.list-manage.com/subscribe/post?u=998330699a9f7918816a2f0f5&amp;id=5cf0d8390e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <fieldset class="form-group">
+              <label style="color: white;" for="email">Sign up for updates!</label>
+              <input type="email" class="form-control" id="mce-email" name="EMAIL" style="height: 40px; margin: 0 auto;" placeholder="Enter email">
+            </fieldset>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_998330699a9f7918816a2f0f5_faafd488dd" tabindex="-1" value=""></div>
+            <input type="submit" class="btn btn-default btn-lg">
+          </form>
         </div>
   		</div><!-- /container -->
   	</div><!-- /headerwrap -->
@@ -64,17 +71,17 @@
 			<div class="row">
 				<h3 class="text-center" style="margin-bottom: 1em;">PAST STARTUPS</h3>
         <div id="logoParade">
-          <img src="assets/img/startups/snapchat.png" alt="Snapchat" border="0"/>
-          <img src="assets/img/startups/tinder.png" alt="tinder" border="0"/>
           <img src="assets/img/startups/gem.png" alt="Gem" border="0"/>
           <img src="assets/img/startups/datascience.png" alt="DataScience" border="0"/>
           <img src="assets/img/startups/epoxy.png" alt="Epoxy" border="0"/>
           <img src="assets/img/startups/goguardian.png" alt="GoGuardian" border="0"/>
           <img src="assets/img/startups/gridspace.png" alt="Gridspace" border="0"/>
           <img src="assets/img/startups/rivo.png" alt="Rivo" border="0"/>
+          <img src="assets/img/startups/tinder.png" alt="tinder" border="0"/>
           <img src="assets/img/startups/stackcommerce.svg" alt="StackCommerce" border="0"/>
           <img src="assets/img/startups/tenoneten.png" alt="TenOneTen" border="0"/>
           <img src="assets/img/startups/tripscope.jpg" alt="TripScope" border="0"/>
+          <img src="assets/img/startups/snapchat.png" alt="Snapchat" border="0"/>
           <img src="assets/img/startups/dropin.png" alt="Droping" border="0"/>
           <img src="assets/img/startups/locent.png" alt="Locent" border="0"/>
           <img src="assets/img/startups/rackspace.png" alt="Rackspace" border="0"/>
@@ -113,7 +120,8 @@
             <li>
                 <a href="https://www.facebook.com/bruinstartupfair/" style="color: #111; margin-right: 10px;"><i class="fa fa-facebook-square fa-lg"></i></a>
                 <a href="https://instagram.com/uclabsf/" style="color: #111; margin-right: 10px;"><i class="fa fa-instagram fa-lg"></i></a>
-                <a href="https://twitter.com/uclabsf" style="color: #111;"><i class="fa fa-twitter-square fa-lg"></i></a>
+                <a href="https://twitter.com/uclabsf" style="color: #111; margin-right: 10px"><i class="fa fa-twitter-square fa-lg"></i></a>
+                <a href="mailto:uclabsf@gmail.com" style="color: #111;"><i class="fa fa-envelope fa-lg"></i></a>
             </li>
         </ul>
     </div>
@@ -153,7 +161,7 @@
 				autoScrollingMode: "always",
 				autoScrollingDirection: "endlessLoopRight",
 				autoScrollingStep: 1,
-				autoScrollingInterval: 25
+				autoScrollingInterval: 10
 			});
 
 			// Logo parade
